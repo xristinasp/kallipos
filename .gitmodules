@@ -1,0 +1,4 @@
+[submodule "manuscript"]
+	path = manuscript
+	url = https://github.com/pibook/manuscript.git
+	branch = master
