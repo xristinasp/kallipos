@@ -1,4 +1,8 @@
-[submodule "manuscript"]
-	path = manuscript
+[submodule "master"]
+	path = master 
 	url = https://github.com/pibook/manuscript.git
+	branch = master
+[submodule "extras"]
+	path = extras
+	url = https://github.com/pibook/extras.git
 	branch = master
