@@ -6,3 +6,7 @@
 	path = extras
 	url = https://github.com/pibook/extras.git
 	branch = master
+[submodule "quotes"]
+	path = quotes
+	url = https://github.com/pibook/_quotes.git
+	branch = master
