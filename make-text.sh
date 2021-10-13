@@ -8,4 +8,6 @@ pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-ch03.m
 pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-ch04.md extras/cs-arduino.md extras/cs-reactable.md --to markdown -o text/pi-ch04.md
 pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-ch05.md extras/cs-facebook.md extras/cs-affective.md --to markdown -o text/pi-ch05.md
 pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-ch06.md extras/cs-www.md extras/cs-wikipedia.md --to markdown -o text/pi-ch06.md
+pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-ch07.md extras/cs-www.md extras/cs-consoles.md extras/cs-unix.md --to markdown -o text/pi-ch07.md
+pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-ch08.md extras/cs-www.md extras/cs-alto.md --to markdown -o text/pi-ch08.md
 pandoc --lua-filter=remove-images.lua --lua-filter=abstract.lua master/pi-epi.md --to markdown -o text/pi-epi.md
