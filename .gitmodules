@@ -6,3 +6,6 @@
 	path = quotes
 	url = https://github.com/pibook/_quotes.git
 	branch = master
+[submodule "manuscript"]
+	path = manuscript
+	url = https://github.com/mibook/text
