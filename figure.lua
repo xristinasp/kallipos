@@ -1,6 +1,7 @@
 function Image(img)
       if img.classes:find('figure',1) then
-        local f = io.open(img.src, 'r')
+        --print(img.src)
+        local f = io.open("figures/" .. img.src, 'r')
         local doc = pandoc.read(f:read('*a'))
         f:close()
         local title=pandoc.utils.stringify(doc.meta.title) or "Title has not been set"

@@ -12,3 +12,6 @@
 [submodule "figures"]
 	path = figures
 	url = https://github.com/pibook/_gallery
+[submodule "images"]
+	path = images
+	url = https://github.com/pibook/images
