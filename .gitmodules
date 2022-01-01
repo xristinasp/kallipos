@@ -9,3 +9,6 @@
 [submodule "manuscript"]
 	path = manuscript
 	url = https://github.com/mibook/text
+[submodule "figures"]
+	path = figures
+	url = https://github.com/pibook/_gallery
