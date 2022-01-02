@@ -1,13 +1,18 @@
+stringify = pandoc.utils.stringify
+
 function Image(img)
       if img.classes:find('figure',1) then
-        --print(img.src)
-        local f = io.open("figures/" .. img.src, 'r')
+        local fn = img.src
+        local f = io.open("figures/" .. fn, 'r')
         local doc = pandoc.read(f:read('*a'))
         f:close()
+        --print(fn)
+        local figid = string.sub(fn,1,string.len(fn)-3)
         local title=pandoc.utils.stringify(doc.meta.title) or "Title has not been set"
         local src=pandoc.utils.stringify(doc.meta.image_url) or "src has not been set"
+        src = string.sub(src,2)
         local caption=pandoc.utils.stringify(doc.meta.caption) or "caption has not been set"
-        return pandoc.Image(caption,src,title) 
+        return pandoc.Image(caption,src,title,"fig:" .. figid)
       end
 end
 
