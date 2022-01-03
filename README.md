@@ -15,5 +15,5 @@ standard output format (e.g., latex, html, docx), with pandoc.
 pandoc --lua-filter=extras.lua manuscript/mi-ch02.md --to markdown | pandoc --lua-filter=epigraph.lua --to markdown | pandoc --lua-filter=figure.lua --to markdown > text/mi-ch02.md
 ```
 
-Some of the include files provide crossreferences to figures
+Some of the include files provide cross-references to figures
 and to bibliography and should be processed last.
