@@ -12,3 +12,6 @@
 [submodule "images"]
 	path = images
 	url = https://github.com/pibook/images
+[submodule "text"]
+	path = text
+	url = https://github.com/mibook/text.git
