@@ -17,3 +17,8 @@ pandoc --lua-filter=extras.lua text/mi-ch02.md --to markdown | pandoc --lua-filt
 
 Some of the include files provide cross-references to figures
 and to bibliography and should be processed last.
+
+```
+pandoc --filter pandoc-fignos text/mi-ch02.md --to markdown | pandoc --citeproc --bibliography=biblio.bib --to latex | less
+```
+
