@@ -1,6 +1,6 @@
 
 function Note(n)
-    return pandoc.RawInline('markdown','')
+    return {} 
 end
 
 
