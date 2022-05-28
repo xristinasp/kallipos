@@ -15,6 +15,7 @@
 [submodule "text"]
 	path = text
 	url = https://github.com/mibook/text.git
+	branch = main
 [submodule "bibliography"]
 	path = bibliography
 	url = https://github.com/pibook/bibliography.git
